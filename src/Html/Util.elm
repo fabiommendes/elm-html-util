@@ -14,7 +14,6 @@ correspond to some common patterns seen in creating of Html documents.
 -}
 
 import Html exposing (..)
-import Internal exposing (isEmpty)
 
 
 {-| Alias to the type of typical Html tag functions like `div`, `p`, `h1`, etc
