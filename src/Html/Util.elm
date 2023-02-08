@@ -1,4 +1,7 @@
-module Html.Util exposing (..)
+module Html.Util exposing
+    ( Element, Tag
+    , uList, oList, dList, anyList
+    )
 
 {-| A simple module with utilty functions enhancing elm/html and elm-community/html-extra.
 
@@ -10,6 +13,13 @@ It can be safely imported in the same namespace as Html and Html.Extra, e.g.,
 
 Html focus in exposing the different types of Html nodes and not much else. The utilities here
 correspond to some common patterns seen in creating of Html documents.
+
+@docs Element, Tag
+
+
+## List functions
+
+@docs uList, oList, dList, anyList
 
 -}
 

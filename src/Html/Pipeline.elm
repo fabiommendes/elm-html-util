@@ -86,11 +86,15 @@ tryItemsOf f =
     Ok << List.filterMap f
 
 
+{-| Create pipeline from list of elements
+-}
 pipeline : List a -> Pipeline a
 pipeline =
     Ok
 
 
+{-| Create pipeline in an error state.
+-}
 error : a -> Pipeline a
 error =
     Err << List.singleton
