@@ -1,4 +1,4 @@
-module Internal exposing (..)
+module Internal exposing (isEmpty)
 
 {-| Internal functions
 -}
